@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework3</title>
+    <link rel="stylesheet" href="./css.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .box1 {
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin-bottom: 10px;
+            width: 70vw;
+            padding: 5px;
+        }
+
+        .nav {
+            align-self: end;
+        }
+
+        nav a {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .box2 {
+            /* border: 2px dashed red; */
+            display: flex;
+            flex-direction: row;
+            width: 70vw;
+            justify-content: center;
+            /* background-color: antiquewhite; */
+            align-items: center;
+        }
+
+        .left1 {
+            /* width: 1000px; */
+            /* height: 250px; */
+            /* margin: 0 auto; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            /* border: 2px darkgreen dashed; */
+            /* background-color: aliceblue; */
+            width: 30vw;
+            /* margin-left: 66px; */
+            /* padding: 10px; */
+            /* margin-right: 100px; */
+            /* position: relative;
+            left: -140px; */
+            /* right: 20px; */
+            margin: 0 70px;
+
+        }
+
+        .left1>* {
+            margin: 10px 0;
+        }
+
+        .left1>button {
+            width: 200px;
+        }
+
+        .img-top-right {
+            /* border: 2 solid darkblue; */
+            width: 200px;
+            height: 200px;
+            /* background-color: blue; */
+            /* align-self: center; */
+            /* margin: 0 auto; */
+            border-radius: 50%;
+            /* border: 2px dashed red; */
+            position: relative;
+            right: -100px;
+
+        }
+
+        img {
+            width: 100%;
+            /* margin: 0 auto; */
+        }
+
+        .box3 {
+            width: 100vw;
+            /* border: 2px dashed darkblue; */
+            display: flex;
+            background-color: lightcyan;
+            position: relative;
+            min-height: 230px;
+            border-collapse: collapse;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .head3 {
+            background-color: white;
+            width: 20vw;
+            /* height: 200px; */
+            /* max-height: 200px; */
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-evenly; */
+            /* border-collapse: collapse; */
+            /* border: 2px solid black; */
+            border-radius: 10px;
+            padding: 10px;
+            margin: 25px 10px 15px 0;
+            /* position: relative; */
+            /* left: 80px; */
+
+
+        }
+
+        .head3>* {
+            margin: 5px;
+        }
+
+        .releft {
+            position:relative;
+            left: 100px;
+            bottom: 120px;
+        }
+
+        .reright {
+            position: relative;
+            left: 1150px;
+            bottom: 120px;
+            text-decoration: none;
+        }
+
+        .reright a {
+            text-decoration: none;
+        }
+
+
+        .box4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            /* border: 2px dashed blue; */
+            width: 70vw;
+        }
+
+        .box41 {
+            display: flex;
+            flex-direction: row;
+            /* border: solid 2px red; */
+            width: 55vw;
+            margin: 20px;
+            height: 200px;
+            /* border-bottom: 2px solid lightslategray; */
+
+        }
+
+        .b41img {
+            width: 400px;
+            height: 200px;
+            overflow: hidden;
+            /* border: 2px dashed red; */
+            margin-left: 160px;
+        }
+
+        .b41img>img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 100%;
+
+        }
+
+        .b4para {
+            /* border: 2px blue dashed; */
+            margin-left: 20px;
+            width: 60vw;
+
+        }
+
+        .b4y {
+            display: flex;
+            width: 300px;
+            padding: 10px 10px 10px 0;
+            /* border: 2px dashed red; */
+            /* justify-content: space-around; */
+        }
+
+        .b4y>p {
+            margin-right: 30px;
+            /* border: 2px dashed blue; */
+        }
+
+        .h4parap1 {
+            background-color: darkblue;
+            color: white;
+            border-radius: 15px;
+            padding: 3px 10px;
+        }
+
+        .h4parap2 {
+            color: gray;
+        }
+
+        .hr {
+            border-bottom: 1px solid rgb(160, 159, 159);
+            width: 45vw;
+            margin-left: 100px;
+        }
+
+        .box5 {
+            /* border: 2px solid red; */
+            width: 70vw;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            /* justify-content: space-around */
+        }
+
+        .box5>img {
+            width: 30px;
+            height: 30px;
+            margin: 10px;
+        }
+
+        .copy {
+            display: flex;
+            border-collapse: collapse;
+            margin: 0;
+        }
+
+        .copy>img {
+            width: 30px;
+            height: 30px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="box1">
+            <nav class="nav">
+                <a href="./works.html">Work</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+        <div class="box2">
+            <div class="left1">
+                <h1>
+                    Hi, I am Palm,<br>
+                    Full-Stack Developer
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure facere quasi, commodi aperiam natus
+                    ipsa accusantium quod libero repellat itaque ut aliquam deleniti molestias officiis pariatur cum
+                    dolor qui! Iusto ducimus aperiam itaque cumque.
+                </p>
+                <button class="myButton">
+                    Download Resume
+                </button>
+            </div>
+            <div class="img-top-right">
+                <img src="./picsh3/butterfly-origami-paper-svgrepo-com.svg" alt="">
+            </div>
+        </div>
+        <div class="box3">
+            <div class="releft">
+                <p>Recent posts</p>
+            </div>
+            <div class="reright">
+                <a href="#">View all</a>
+            </div>
+            <!-- <div class="frame"> -->
+            <div class="head3">
+                <h2 class="head3-h2">Making a design system from scrarch</h2>
+
+                </h2>
+                <p class="head3p-1">12 Feb 2020 &nbsp;| &nbsp; Design Pattom</p>
+
+                </p>
+                <p class="head3p-2">Lorem, ipsum dolor elit. Adipisci quisquam harum commodi id. Possimus quibusdam
+                    libero eum et quam culpa, quaerat pariatur repudiandae eos non, obcaecati voluptatum delectus
+                    sapiente eaque ex
+                </p>
+            </div>
+            <div class="head3">
+                <h2 class="head3-h2">Creating pixel perfect icons in Figma</h2>
+
+                </h2>
+                <p class="head3p-1">12 Feb 2020 &nbsp;| &nbsp; Design Pattom</p>
+
+                </p>
+                <p class="head3p-2">Lorem ipsum, dolor elit. Adipisci laborum deserunt quaerat repellat quam dignissimos
+                    nihil consectetur aspernatur laboriosam vel voluptatibus deleniti quibusdam accusamus itaque</p>
+            </div>
+            <!-- </div> -->
+        </div>
+        <!-- </div> -->
+        <!-- <div class="boxlow"> -->
+        <div class="box4">
+            <div class="releft4">
+
+            </div>
+            <div class="box41">
+                <div class="b41img">
+                    <img src="./picsh3/pexels-artem-saranin-1496372.jpg" alt="">
+                </div>
+                <div class="b4para">
+                    <h2 class="h4parah2">Designing Dashboards</h2>
+                    <div class="b4y">
+                        <p class="h4parap1">2023</p>
+                        <p class="h4parap2"> Dashboards</p>
+                    </div>
+                    <p class="h4parap3">Lorem delectus iure lae. provident numquam nihil aperiam quaerat iure aspernatur
+                        aliquid molestiae, quae perferendis ullam voluptates asperiores perspiciatis magni repellendus
+                        nobis doloremque voluptatem libero vitae! Nisi dicta, quo voluptatum perferendis saepe voluptas
+                        suscipit?</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="box41">
+                <div class="b41img">
+                    <img src="./picsh3/pexels-pixabay-235986.jpg" alt="">
+                </div>
+                <div class="b4para">
+                    <h2 class="h4parah2">Vibrant Portraits of 2020</h2>
+                    <div class="b4y">
+                        <p class="h4parap1">2023</p>
+                        <p class="h4parap2">Dashboard</p>
+                    </div>
+                    <p class="h4parap3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, exercitationem
+                        pariatur corporis consectetur iste consequatur ad suscipit tempore corrupti tempora, nostrum
+                        quam magni reiciendis, optio autem? Placeat corrupti aspernatur quae ipsam ut exercitationem
+                        sit, voluptatem asperiores unde iste quaerat quibusdam quas. Numquam doloribus quasi facere quod
+                        perspiciatis quidem ut laborum?</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="box41">
+                <div class="b41img">
+                    <img src="./picsh3/pexels-todd-trapani-1420440.jpg" alt="">
+                </div>
+                <div class="b4para">
+                    <h2 class="h4parah2">36 Days of Malayalam type</h2>
+                    <div class="b4y">
+                        <p class="h4parap1">2023</p>
+                        <p class="h4parap2">Dashboard</p>
+                    </div>
+                    <p class="h4parap3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nemo pariatur
+                        temporibus, necessitatibus quo laboriosam, est dicta totam nobis adipisci ipsa obcaecati porro
+                        molestiae itaque dolorem repudiandae dolorum illo repellat sed nesciunt asperiores nulla
+                        tempora! Assumenda quae obcaecati quo adipisci ducimus modi distinctio esse sit ipsum ut?
+                        Debitis, dolorum ipsum!</p>
+                </div>
+            </div>
+            <div class="hr"></div>
+        </div>
+        <!-- </div> -->
+        <div class="box5">
+            <img src="./picsh3/facebook-svgrepo-com.svg" alt="">
+            <img src="./picsh3/twitter-svgrepo-com.svg" alt="">
+            <img src="./picsh3/linkedin-logo-duotone-svgrepo-com.svg" alt="">
+            <img src="./picsh3/github-svgrepo-com.svg" alt="">
+        </div>
+        <div class="copy">Copyright <img src="./picsh3/copyright-svgrepo-com.svg" alt="">2020 All right reserved</div>
+    </main>
+</body>
+
+</html>
